@@ -44,7 +44,6 @@ justify-content: center;
     border: rgb(213, 217, 223) 1px solid;
     width: 100%;
     padding-top: 20px;    
-    padding-bottom: 20px;
     padding: 35px;
     margin-bottom: 10px;
 }
@@ -129,3 +128,10 @@ hr {
 .imgbutton img {
     width: 11rem;
 }
+
+@media(max-width:1000px) {
+    .instagram-phone {display: none;}
+    .instagram-wrapper {width: 90%; justify-content: center;}
+}
+
+
